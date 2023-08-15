@@ -1,2 +1,13 @@
 help.txt
 tailwind.config.js
+esbuild.js
+input.css
+node_modules
+*jsx
+jsx
+IMG-20230814-WA0035.jpg
+js/tailwindcss.js
+.vscode
+data/api.json
+js/react*development*
+style.css
