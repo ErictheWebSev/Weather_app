@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "esbuild": "file:../../../Users/SHARON GODSWILL EDWI/AppData/Roaming/npm/node_modules/esbuild"
+    "esbuild": "^0.19.2",
+    "tailwindcss": "^3.3.3"
   }
 }
