@@ -7,7 +7,7 @@ const cities = [ "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa",
 const modal = ReactDOM.createRoot(E('.body'));
 
 async function fetchX(city){
-    const data = await API(`http://api.weatherapi.com/v1/forecast.json?key=146400f3fe054f9694b230714231408&q=${city}&days=3`);
+    const data = await API(`https://api.weatherapi.com/v1/forecast.json?key=146400f3fe054f9694b230714231408&q=${city}&days=3`);
     render(data);
 }
 
