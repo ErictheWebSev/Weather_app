@@ -53,7 +53,7 @@ function render(data){
                         <img src={data.current.condition.icon}/>
                         <div className="flex flex-col gap-2">
                             <span className="text-center">{date.toDateString().split(' ').shift()}</span>
-                            <b className="text-center mt-2">{data.current.temp_c} °C</b>
+                            <b className="text-center">{data.current.temp_c} °C</b>
                         </div>
                     </div>
                     {
