@@ -1,0 +1,3 @@
+http://api.weatherapi.com/v1/forecast.json?key=146400f3fe054f9694b230714231408&q=Lagos&days=4
+
+146400f3fe054f9694b230714231408
