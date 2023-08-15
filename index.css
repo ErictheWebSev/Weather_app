@@ -570,10 +570,6 @@ video {
   float: right;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -771,6 +767,16 @@ video {
     left: 20%;
   }
 
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .sm\:w-10\/12 {
     width: 83.333333%;
   }
@@ -793,6 +799,10 @@ video {
     grid-column: span 3 / span 3;
   }
 
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:w-1\/5 {
     width: 20%;
   }
@@ -803,6 +813,14 @@ video {
 
   .lg\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
   }
 }
 
